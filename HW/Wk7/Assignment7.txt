@@ -1,0 +1,21 @@
+CS 425, Fall 2023, week 7 Assignment.
+
+Problem 1
+
+Extend the minimal interpreter coded in Scheme during the lecture.
+The extension must include some new binary operation, like the average
+of two integers.  Choose a user-defined function, not a library
+function.  Experiment with a lookup architecture to map the
+representation of operators in an expression to be interpreted to the
+corresponding procedure.
+
+The total amount of code is a handful of lines.
+
+Problem 2
+
+Compare the representation of binary trees in SML and Scheme.
+Consider binary trees where the information is only in the branches
+and binary trees where the information is only in the leaves.
+
+The total amount of code is about 10 lines per tree kind per language
+including a function that traverses a tree for testing purposes.

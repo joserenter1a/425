@@ -1,0 +1,27 @@
+Assignment 9
+
+ Recall the abstract syntax of lambda calculus expressions: 
+
+       E := x | \x.E | E E
+
+Define a Haskell type (data) to represent a lambda calculus expression.
+
+Using type E, code a Haskell function, say free, that takes a lambda
+calculus variable v and a lambda calculus expression e and tells
+whether v occurs free in e.
+
+Using type E, code a Haskell function, say bound, that takes a lambda
+calculus variable v and a lambda calculus expression e and tells
+whether v occurs bound in e.
+
+Note: to claim that v occurs bound in e it is necessary that v occurs
+in e.  For example, in the following expressions, v occurs bound
+
+    \v.v
+    \x.\v.(x v)
+
+in the following expressions v does not occur bound
+
+    \v.x
+    (\x.\v.x) v
+

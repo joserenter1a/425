@@ -1,0 +1,15 @@
+
+The goal is to construct a list of student identifiers.
+A student indentifier is either a 9-digit number starting with 95,
+e.g., 951234567 or a pair of strings, the first and last names
+of a students, e.g., ("Joe","Programmer").
+
+Code two programs, one in Standard ML and the other in Scheme.
+Each programs should encode a couple of examples of lists as described
+above and a function.  The function takes a string s and a list l
+and returns a list containing all the pairs of l in which s is
+the first name. 
+
+Include a couple of tests of the function.
+
+Say whether you coded first in Scheme or first in ML.
